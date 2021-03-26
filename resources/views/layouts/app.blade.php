@@ -68,6 +68,10 @@
                             ease-in border-b-4 pb-3 hover:border-blue">Closed (55)</a></li>
                     </ul>
                 </nav>
+
+                <div class="mt-8">
+                    {{ $slot }}
+                </div>
             </div>
         </main>
     </body>

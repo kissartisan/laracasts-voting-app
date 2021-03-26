@@ -49,10 +49,25 @@
 
         <main class="container mx-auto max-w-custom flex" >
             <div class="w-70 mr-5">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium facere porro vero quidem perferendis soluta exercitationem sequi libero fuga quibusdam, quasi, numquam modi nemo deserunt ipsum eum aperiam assumenda autem rerum voluptates voluptate. Impedit dolores, at harum praesentium aperiam explicabo corporis ut quibusdam in suscipit. Consequatur nobis soluta magnam quam, deleniti repudiandae voluptatem hic ab corrupti libero perferendis quod officiis quia voluptas ducimus et quae sapiente iure molestias vel recusandae! Asperiores consequuntur, distinctio unde error facilis aut molestiae voluptatum, ipsam similique ex odit voluptatibus sint reiciendis fuga rem sapiente quas omnis vitae. Aspernatur magnam laborum quaerat id at optio saepe!
+                Add idea form goes here. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab aut distinctio ratione repudiandae earum recusandae quos dicta placeat consequatur aliquid dolore delectus ea corrupti assumenda, aperiam veniam quibusdam est.
             </div>
             <div class="w-175">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, asperiores delectus! Veritatis rem illum placeat nihil. Facilis doloremque voluptatibus obcaecati consequatur perferendis corrupti dolore nam, ipsam autem aut hic enim rerum deserunt atque ex omnis magni consectetur, fugit voluptates nobis inventore quibusdam quos quo iste! Mollitia culpa nesciunt ut iusto, cumque, aperiam consectetur vel omnis dolore ducimus ex recusandae fuga adipisci, reprehenderit veritatis nostrum sequi. Quaerat repellat voluptate tempora itaque earum distinctio, autem impedit quam. Aut possimus mollitia asperiores dicta quas consequatur deserunt voluptatum iure ducimus placeat beatae culpa, facilis in sapiente tempora neque dolore nesciunt laboriosam tenetur quasi! Voluptatibus at quisquam nemo nesciunt quam autem sit eum numquam, perferendis ex dolor sed, quia repellat totam iusto, iste animi delectus suscipit aliquam saepe. Iste, ipsum itaque quam quae cum et beatae dolores excepturi magni blanditiis, ab accusamus! Itaque voluptatum reprehenderit dolores porro esse voluptates delectus distinctio est quidem consequuntur cupiditate qui placeat necessitatibus quam, enim deleniti numquam eos! Repellat quo aliquam fuga neque minima tempora eligendi minus accusantium, magnam vel nostrum. Veritatis dolores assumenda iste qui id rerum, odit facilis iusto doloribus. Deleniti, nobis rem quis dicta facilis velit facere doloribus voluptate consectetur exercitationem ex inventore delectus voluptatum modi cum!
+                <nav class="flex items-center justify-between text-xs">
+                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                        <li><a href="#" class="border-b-4 pb-3 border-blue">All Ideas (87)</a></li>
+                        <li><a href="#" class="text-gray-400 transition duration-150
+                                ease-in border-b-4 pb-3 hover:border-blue">Considering (4)</a></li>
+                        <li><a href="#" class="text-gray-400 transition duration-150
+                                ease-in border-b-4 pb-3 hover:border-blue">In Progress (8)</a></li>
+                    </ul>
+
+                    <ul class="flex uppercase font-semibold border-b-4 pb-3 space-x-10">
+                        <li><a href="#" class="text-gray-400 transition duration-150
+                            ease-in border-b-4 pb-3 hover:border-blue">Implemented (10)</a></li>
+                        <li><a href="#" class="text-gray-400 transition duration-150
+                            ease-in border-b-4 pb-3 hover:border-blue">Closed (55)</a></li>
+                    </ul>
+                </nav>
             </div>
         </main>
     </body>

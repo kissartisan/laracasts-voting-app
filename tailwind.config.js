@@ -18,6 +18,13 @@ module.exports = {
                 gray: colors.trueGray,
                 'gray-background' : '#f7f8fc'
             },
+            spacing: {
+                70: '17.5rem',
+                175: '43.75rem'
+            },
+            maxWidth: {
+                custom: '62.5rem'
+            },
             fontFamily: {
                 sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
             },

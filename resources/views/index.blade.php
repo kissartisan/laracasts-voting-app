@@ -31,7 +31,8 @@
     </div> <!-- end filters -->
 
     <div class="ideas-container space-y-6 my-7">
-        <div class="idea-container bg-white rounded-xl flex">
+        <div class="idea-container flex hover:shadow-card bg-white rounded-xl
+            transition duration-150 ease-in cursor-pointer">
             <div class="border-r border-gray-100 px-5 py-8">
                 <div class="text-center">
                     <div class="font-semibold text-2xl">12</div>
@@ -74,7 +75,7 @@
                                 <svg fill="currentColor" width="24" height="6">
                                     <path
                                         d="M2.97.061A2.969 2.969 0 000 3.031 2.968 2.968 0 002.97 6a2.97 2.97 0 100-5.94zm9.184 0a2.97 2.97 0 100 5.939 2.97 2.97 0 100-5.939zm8.877 0a2.97 2.97 0 10-.003 5.94A2.97 2.97 0 0021.03.06z">
-                                    <ul class="absolute w-44 text-left font-semibold bg-white shadow-lg rounded-xl py-3 ml-8">
+                                    <ul class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
                                         <li>
                                             <a href="#" class="hover:bg-gray-100 block px-5 py-3
                                                 transition duration-150 ease-in">Mark as spam</a>

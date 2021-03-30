@@ -101,8 +101,7 @@
                                 text-xs bg-blue text-white font-semibold rounded-xl
                                 border border-blue hover:blue-hover
                                 transition duration-150 ease-in px-6 py-3"
-                            ><span class="ml-1">Submit</span>
-</button>
+                            ><span class="ml-1">Submit</span></button>
                         </div>
                     </form>
                 </div>

@@ -8,18 +8,7 @@
         </a>
     </div>
     <div class="idea-container bg-white rounded-xl flex mt-4">
-        <div class="border-r border-gray-100 px-5 py-8">
-            <div class="text-center">
-                <div class="font-semibold text-2xl">12</div>
-                <div class="text-gray-500">Votes</div>
-            </div>
-            <div class="mt-8">
-                <button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400
-                                transition duration-150 ease-in font-bold text-xxs uppercase rounded-xl px-4 py-3">Vote
-                </button>
-            </div>
-        </div>
-        <div class="flex flex-1 px-2 py-6">
+        <div class="flex flex-1 px-4 py-6">
             <div class="flex-none">
                 <a href="#">
                     <img src="https://source.unsplash.com/200x200/?face&crop=face&v=1" alt="avatar"
@@ -39,6 +28,7 @@
 
                 <div class="flex items-center justify-between mt-6">
                     <div class="flex items-center text-xs font-semibold space-x-2 text-gray-400">
+                        <div class="font-bold text-gray-900">John Doe</div>
                         <div>10 hours ago</div>
                         <div>&bull;</div>
                         <div>Category 1</div>
@@ -72,4 +62,25 @@
             </div>
         </div>
     </div> <!-- end of idea-container -->
+
+    <div class="buttons-container flex- items-center justify-between mt-6">
+        <div class="flex items-center space-x-4 ml-6">
+            <button type="button" class="flex items-center justify-center h-11 w- 32
+                text-xs bg-blue text-white font-semibold rounded-xl
+                border border-blue hover:blue-hover
+                transition duration-150 ease-in px-6 py-3"
+            ><span class="ml-1">Reply</span></button>
+            <button type="button" class="flex items-center w-34 justify-center h-11
+                text-xs bg-gray-200 font-semibold rounded-xl
+                border border-gray-200 hover:border-gray-400
+                transition duration-150 ease-in px-6 py-3">
+                <span>Set Status</span>
+                <svg class="text-gray-600 w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </button>
+        </div>
+        <div class="flex items-center space-x-4 ml-6">
+        </div>
+    </div> <!-- end buttons-container -->
 </x-app-layout>

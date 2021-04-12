@@ -46,7 +46,7 @@
                                 <path
                                     d="M2.97.061A2.969 2.969 0 000 3.031 2.968 2.968 0 002.97 6a2.97 2.97 0 100-5.94zm9.184 0a2.97 2.97 0 100 5.939 2.97 2.97 0 100-5.939zm8.877 0a2.97 2.97 0 10-.003 5.94A2.97 2.97 0 0021.03.06z">
                                     <ul
-                                        class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
+                                        class="hidden absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
                                         <li>
                                             <a href="#" class="hover:bg-gray-100 block px-5 py-3
                                                         transition duration-150 ease-in">Mark as spam</a>
@@ -63,14 +63,14 @@
         </div>
     </div> <!-- end of idea-container -->
 
-    <div class="buttons-container flex- items-center justify-between mt-6">
+    <div class="buttons-container flex items-center justify-between mt-6">
         <div class="flex items-center space-x-4 ml-6">
             <button type="button" class="flex items-center justify-center h-11 w- 32
                 text-xs bg-blue text-white font-semibold rounded-xl
                 border border-blue hover:blue-hover
                 transition duration-150 ease-in px-6 py-3"
             ><span class="ml-1">Reply</span></button>
-            <button type="button" class="flex items-center w-34 justify-center h-11
+            <button type="button" class="flex items-center w-36 justify-center h-11
                 text-xs bg-gray-200 font-semibold rounded-xl
                 border border-gray-200 hover:border-gray-400
                 transition duration-150 ease-in px-6 py-3">
@@ -80,7 +80,17 @@
                 </svg>
             </button>
         </div>
-        <div class="flex items-center space-x-4 ml-6">
+        <div class="flex items-center space-x-3">
+            <div class="bg-white font-semibold text-center rounded-xl px-3 py-2">
+                <div class="text-xl leading-snug">12</div>
+                <div class="text-gray-400 text-xs leading-none">Votes</div>
+            </div>
+            <button type="button" class="w-32 h-11
+                text-xs bg-gray-200 font-semibold uppercase rounded-xl
+                border border-gray-200 hover:border-gray-400
+                transition duration-150 ease-in px-6 py-3">
+                <span>Vote</span>
+            </button>
         </div>
     </div> <!-- end buttons-container -->
 </x-app-layout>
